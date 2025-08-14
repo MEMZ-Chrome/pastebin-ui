@@ -1,6 +1,6 @@
 name= "pastebin-worker"
 compatibility_date = "2023-11-28"
-account_id= "37d2a5b56518873c54dcdc0e1f96203c"
+account_id= "0b62b8a8c958277335e65da8cc4fc644"
 main = "src/index.ts"
 workers_dev = false
 

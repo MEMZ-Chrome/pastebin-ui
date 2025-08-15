@@ -131,7 +131,7 @@ app.post('/api/upload', async (c) => {
       name: file.name,
     },
   });
-  return c.json({ id, url: `${config.BASE_URL}/file/${id}` });
+  return c.json({ id, url: `${config.VITE_API_URL}/file/${id}` });
 });
 
 // 反代图片
